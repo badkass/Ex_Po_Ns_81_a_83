@@ -26,5 +26,11 @@
     <ClInclude Include="Vecteur3d.h">
       <Filter>Fichiers sources</Filter>
     </ClInclude>
+    <ClInclude Include="vecteur1.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Math1.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

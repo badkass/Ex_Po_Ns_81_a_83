@@ -143,6 +143,8 @@
     <ClCompile Include="Point1.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Math1.h" />
+    <ClInclude Include="vecteur1.h" />
     <ClInclude Include="Vecteur3d.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
