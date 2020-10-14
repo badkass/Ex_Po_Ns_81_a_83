@@ -55,7 +55,7 @@ vect prod (const matrice & m, const vect & x)
 {   
 	int i, j;   
 	double som;
-	vect res;       // pour le résultat du produit   
+	vect res;          
 	for (i=0 ; i<3 ; i++)
 	{
 		for (j=0, som=0 ; j<3 ; j++)   
@@ -68,9 +68,9 @@ vect prod (const matrice & m, const vect & x)
 
 int main()
 {  
-	vect w (1,2,3) ; 
+	vect w (9,8,7) ; 
 	vect res  ; 
-	double tb [3][3] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 } ; 
+	double tb [3][3] = { 2, 4, 6, 8, 10, 12, 14, 16, 18 } ; 
 	matrice a =  tb  ;  
 	res = prod(a, w) ;  
 	res.affiche () ;
