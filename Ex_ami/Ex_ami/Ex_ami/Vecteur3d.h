@@ -8,7 +8,7 @@ public:
 	vecteur3d(float c1 = 0, float c2 = 0, float c3 = 0)
 
 	{
-		m_X = c1; m_Y = c2; m_Zz = c3;
+		m_X = c1; m_Y = c2; m_Z = c3;
 	};  
 
 
