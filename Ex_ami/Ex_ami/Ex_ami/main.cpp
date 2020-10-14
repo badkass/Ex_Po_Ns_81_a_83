@@ -30,7 +30,7 @@ int coincide (const vecteur3d & v1, const vecteur3d & v2)
 		return 1 ;     
 	else return 0 ;}
 
-// Exercice 83 
+// Exercice 83  //update
 
 void vect::affiche ()
 { 
